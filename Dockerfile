@@ -8,7 +8,7 @@ LABEL maintainer="techmonks@gmail.com"
 VOLUME /user-service
 
 # Make port 8080 available to the world outside this container
-EXPOSE 8080
+EXPOSE 5050
 
 # The application's jar file
 ARG JAR_FILE=build/libs/userservice-0.0.1-SNAPSHOT.jar
