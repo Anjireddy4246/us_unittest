@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class UserServiceApplication {
 
 	public static void main(String[] args) {
-		System.out.println("hello world. I am just borned");
+		System.out.println("hello world. I have started initializing the application");
 		SpringApplication.run(UserServiceApplication.class, args);
 	}
 }
