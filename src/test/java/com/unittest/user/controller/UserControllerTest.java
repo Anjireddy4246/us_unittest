@@ -17,12 +17,12 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 
-@RunWith(MockitoJUnitRunner.class)
+//@RunWith(MockitoJUnitRunner.class)
 public class UserControllerTest {
-    @Mock
+    //@Mock
     UserService userServiceMock;
 
-    @InjectMocks
+   // @InjectMocks
     UserController userController;
 
    // @Test
