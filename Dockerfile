@@ -16,5 +16,7 @@ ARG JAR_FILE=build/libs/userservice-0.0.1-SNAPSHOT.jar
 # Add the application's jar to the container
 ADD ${JAR_FILE} userservice.jar
 
+RUN sh -c 'touch userservice.jar'
+
 # Run the jar file 
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","-Dspring.profiles.active=default", "/userservice.jar"]
