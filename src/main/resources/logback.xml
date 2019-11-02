@@ -54,7 +54,7 @@
         <keyingStrategy class="com.github.danielwegener.logback.kafka.keying.HostNameKeyingStrategy"/>
         <deliveryStrategy class="com.github.danielwegener.logback.kafka.delivery.AsynchronousDeliveryStrategy"/>
         <producerConfig>
-            bootstrap.servers=192.168.45.143:9092
+            bootstrap.servers=localhost:9092
         </producerConfig>
         <appender-ref ref="flatfile"/>
     </appender>
