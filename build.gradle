@@ -25,11 +25,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-test'
 	implementation 'org.springframework.kafka:spring-kafka'
+	implementation 'org.springframework.cloud:spring-cloud-sleuth'
 	// https://mvnrepository.com/artifact/mysql/mysql-connector-java
 	compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.18'
 
 	//implementation 'org.springframework.cloud:spring-cloud-starter-config'
-	implementation 'org.springframework.cloud:spring-cloud-sleuth'
 	//implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	// 'com.h2database:h2:1.4.199'
 	// https://mvnrepository.com/artifact/com.h2database/h2
